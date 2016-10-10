@@ -74,6 +74,7 @@ plot(Intvl_range$interval,
     )
     
 ```
+![](figure/unnamed-chunk-7-1.png)<!-- -->
 
 ##5. Interval with maximum number of steps
 
@@ -108,6 +109,9 @@ steps_day_impu <- tapply(all_vals_impu$steps, all_vals_impu$date, sum)
 
 qplot(steps_day_impu, xlab='Steps per day - Imputed', ylab='Occurence per day', binwidth=500)
 ```
+
+![](figure/unnamed-chunk-11-1.png)<!-- -->
+
 ##8. Calculate and report the mean and median total number of steps taken per day.
 ```{r}
 steps_day_impu_mean <- mean(steps_day_impu)
@@ -142,3 +146,4 @@ ggplot(avg_all_vals_impu, aes(interval, steps)) +
     ylab("Average No. of steps taken")
 
 ```
+![](figure/unnamed-chunk-14-1.png)<!-- -->
