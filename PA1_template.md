@@ -40,7 +40,7 @@ hist(mean_step$steps_day,
     ylim = c(0, 30))
     
 ```
-
+![](figure/unnamed-chunk-4-1.png)<!-- -->
 ##3. Mean and Median calculation
 
 ```{r}
